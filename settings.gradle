@@ -1,0 +1,4 @@
+rootProject.name = 'Gateway&ServiceDiscovery'
+
+include('Service-Registry')
+include('ApiGateway')
