@@ -17,6 +17,6 @@ COPY --from=DEPS /app/ApiGateway/build/libs /app/build
 COPY --from=DEPS /app/Service-Registry/build/libs /app/build
 COPY --from=DEPS /app/command.sh /app/
 
-EXPOSE 8500 8761
+EXPOSE 8590 8761
 
 CMD ["bash","/app/command.sh"]
